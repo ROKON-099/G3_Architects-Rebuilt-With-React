@@ -3,7 +3,7 @@ const LoadingSpinner = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950">
       <div className="flex flex-col items-center gap-5">
         
-        {/* Spinner */}
+        {/* -----------------Spinner -----------------*/}
         <div className="relative h-16 w-16 sm:h-20 sm:w-20">
           {/* Outer glow */}
           <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl animate-pulse"></div>
