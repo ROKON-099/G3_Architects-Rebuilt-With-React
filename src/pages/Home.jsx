@@ -1,12 +1,13 @@
-
+import Banner from "../components/banner";
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to Our Home Page</h1>
-      <p>This is the home page content.</p>
+      <Banner />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+
+
+export default Home;
