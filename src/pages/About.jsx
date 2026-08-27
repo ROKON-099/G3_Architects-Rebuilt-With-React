@@ -6,13 +6,13 @@ const About = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // page load er animation er jonno
+    
     const timer = setTimeout(() => setLoading(false), 1500);
     return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
-    return <Spinner />; // full page spinner
+    return <Spinner />; 
   }
   return (
     <div>
