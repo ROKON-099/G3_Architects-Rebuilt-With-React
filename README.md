@@ -2,9 +2,9 @@
 
 ### Homepage
 
-<p align="center">
-  <img src="./public/images/screenshot.png" alt="G3 Architects Homepage" width="900">
-</p>
+
+  ![G3 Architects Homepage](./public/images/screenshot.png)
+
 
 
 # G3-Architects
@@ -12,7 +12,8 @@
 A modern, responsive architecture website built with React.js, Vite, React Router, and Tailwind CSS. The project focuses on a clean UI, responsive layouts, reusable components, and a smooth user experience across devices.
 
 
-# Live Website: https://g3-architectsapp.netlify.app/
+# Live Website: 
+ https://g3-architectsapp.netlify.app/
 
 # Features
  Fully responsive design

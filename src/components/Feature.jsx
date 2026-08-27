@@ -2,6 +2,9 @@ import Team1 from "../assets/banner/team1.png";
 import Team2 from "../assets/banner/team2.png";
 import Team3 from "../assets/banner/team3.png";
 import Team4 from "../assets/banner/team4.png";
+import { Link } from "react-router";
+
+
 
 const Feature = () => {
   const images = [Team1, Team2, Team3, Team4];
@@ -33,14 +36,12 @@ const Feature = () => {
             projects easier, faster, and more efficient. Our features combine
             quality, creativity, and functionality in one place.
           </p>
+          <Link to="/architect">
+            <button className="mt-4 sm:mt-5 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 cursor-pointer text-white font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition duration-300">
+              Explore Now
+            </button>
+          </Link>
 
-          <button
-            className="bg-orange-500 hover:bg-orange-600 text-white
-            font-semibold text-sm px-6 py-3 rounded-md
-            transition duration-300"
-          >
-            Explore Now
-          </button>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import bannerImg from "../assets/banner/banner.png";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -20,9 +21,11 @@ const Banner = () => {
           </p>
 
           {/* Explore Button */}
-          <button className="mt-4 sm:mt-5 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 cursor-pointer text-white font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition duration-300">
-            Explore Now
-          </button>
+          <Link to="/architect">
+            <button className="mt-4 sm:mt-5 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 cursor-pointer text-white font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition duration-300">
+              Explore Now
+            </button>
+          </Link>
         </div>
 
         {/* Banner Image */}
